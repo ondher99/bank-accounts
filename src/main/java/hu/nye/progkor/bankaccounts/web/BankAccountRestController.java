@@ -38,7 +38,7 @@ public class BankAccountRestController {
         return accountService.updateAccount(account);
     }
 
-    @DeleteMapping("/{id")
+    @DeleteMapping("/{id}")
     public void deleteAccountById(@PathVariable Long id) {
         accountService.deleteAccountById(id);
     }
